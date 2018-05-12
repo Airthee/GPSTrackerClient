@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activities.DeviceEditActivity"
+    tools:showIn="@layout/activity_device_edit"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView_device_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="device_name" />
+
+    <EditText
+        android:id="@+id/editText_device_name"
+        android:hint="@string/device_edit_text_field_device_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText_phone_number"
+        android:hint="@string/device_edit_text_field_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/editText_password"
+        android:hint="@string/device_edit_text_field_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+</LinearLayout>

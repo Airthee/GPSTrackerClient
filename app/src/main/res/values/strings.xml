@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GPS Tracker Client</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_device_edit">DeviceEditActivity</string>
+
+    <!-- activity_device_edit -->
+    <string name="device_edit_text_field_device_name">Device name</string>
+    <string name="device_edit_text_field_phone_number">Phone number</string>
+    <string name="device_edit_text_field_password">Password</string>
+</resources>

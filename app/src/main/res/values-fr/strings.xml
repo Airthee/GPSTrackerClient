@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- activity_device_edit -->
+    <string name="device_edit_text_field_device_name">Nom de l\'appareil</string>
+    <string name="device_edit_text_field_phone_number">Numéro de téléphone</string>
+    <string name="device_edit_text_field_password">Mot de passe</string>
+</resources>
